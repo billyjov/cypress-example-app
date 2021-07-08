@@ -5,5 +5,17 @@
   "screenshotsFolder": "cypress/screenshots",
   "pluginsFile": "cypress/plugins/index.js",
   "fixturesFolder": "cypress/fixtures",
-  "baseUrl": "http://localhost:4200"
+  "baseUrl": "http://localhost:4200",
+  "env": {
+    "apiUrl": "https://conduit.productionready.io/api/",
+    "user": {
+      "email": "obi@kenobi.com",
+      "password": "LeyaMorgana",
+      "username": "Obi Wan Kenobi",
+      "details": {
+        "age": 30,
+        "nickname": "JohnDoe"
+      }
+    }
+  }
 }
