@@ -17,12 +17,14 @@
                 placeholder="Username"
                 class="form-control form-control-lg"
                 type="text"
+                data-cy="username"
                 *ngIf="authType == 'register'" />
             </fieldset>
             <fieldset class="form-group">
               <input
                 formControlName="email"
                 placeholder="Email"
+                data-cy="email"
                 class="form-control form-control-lg"
                 type="text" />
             </fieldset>
@@ -30,6 +32,7 @@
               <input
                 formControlName="password"
                 placeholder="Password"
+                data-cy="password"
                 class="form-control form-control-lg"
                 type="password" />
             </fieldset>
